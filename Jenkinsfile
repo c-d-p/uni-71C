@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     triggers {
-        pollSCM('H/2 * * * *') // no webhook, just polling every 2 minutes
+        pollSCM('H/1 * * * *') // no webhook, just polling every 2 minutes
     }
 
     stages {
